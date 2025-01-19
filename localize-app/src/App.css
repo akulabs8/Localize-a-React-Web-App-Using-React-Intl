@@ -1,1 +1,99 @@
-/* Add your CSS here */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500&display=swap");
+
+#root {
+   font-family: "Nunito Sans", sans-serif;
+    width: 100vw;
+ }
+ 
+ .container {
+    height: calc(100vh);
+    text-align: center;
+    font-size: 1.5em;
+ }
+ 
+ header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EBEBEB;
+ }
+ 
+ header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0.5em 1em;
+ }
+ 
+ a {
+    display: flex;
+    color: #213547 !important;
+    cursor: pointer;
+ }
+ 
+ .hidden {
+    display: none;
+ }
+ 
+ .visible {
+    display: flex;
+ }
+
+nav{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   border-top: 1px solid #FFF;
+}
+nav a{
+   display: flex;
+   padding: 0.4em 0em;
+   width: 100%;
+   justify-content: center; /* Center horizontally */
+
+}
+nav .active{
+   color:blue;
+   background-color: rgb(196, 196, 231);
+
+}
+nav a:hover{
+   background-color: #646cff;
+   color: #FFF !important;
+}
+
+.active {
+   color: #646cff !important;
+}
+
+.active:hover {
+   color: #030418 !important;
+}
+
+select {
+   padding-inline: 20px;
+   border: 0;
+   cursor: pointer;
+   font-size: 20px;
+   margin-right: 1rem;
+
+   /* &:focus {
+      outline: none;
+   } */
+}
+select:focus {
+   outline: none;
+ }
+header span {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.langDropdown{
+   justify-content: right;
+
+}
